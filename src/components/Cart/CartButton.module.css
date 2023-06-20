@@ -1,0 +1,22 @@
+.button {
+  background-color: transparent;
+  border-color: #d14e1a;;
+  color: #d14e1a;
+}
+
+.button:hover,
+.button:active {
+  color: white;
+  background-color: #d14e1a;
+}
+
+.button span {
+  margin: 0 0.5rem;
+}
+
+.badge {
+  background-color: #d14e1a;
+  border-radius: 30px;
+  padding: 0.15rem 1.25rem;
+  color: #fbf9f9;
+}
