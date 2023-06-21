@@ -1,7 +1,10 @@
 .button {
   background-color: transparent;
-  border-color: #d14e1a;;
+  border-color: #d14e1a;
   color: #d14e1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .button:hover,
@@ -19,4 +22,17 @@
   border-radius: 30px;
   padding: 0.15rem 1.25rem;
   color: #fbf9f9;
+}
+
+@media (max-width: 768px) {
+  .button span {
+    flex: 0 0 60%;
+    margin: 0 0.2rem !important;
+    white-space: nowrap;
+  }
+  .badge {
+    flex: 0 0 30% !important;
+    padding: 0.15rem 0.75rem;
+    font-size: small;
+  }
 }
